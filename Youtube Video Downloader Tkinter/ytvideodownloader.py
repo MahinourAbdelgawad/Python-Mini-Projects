@@ -1,7 +1,10 @@
 import tkinter as tk
 from tkinter import *
-from pytube import YouTube
+# from pytube import YouTube
+from pytubefix import YouTube
+from pytubefix.cli import on_progress
 from tkinter import messagebox, filedialog
+import threading
 
 def Widgets(): # to create tkinter widgets
     label = Label(main, text = "Youtube Video Downloader",
@@ -63,13 +66,27 @@ def Browse(): # to select folder
     path.set(directory)
 
 def Download(): # to download video to selected folder
+    print("clicked download")
     yt_link = link.get()
     folder = path.get()
-    getVideo = YouTube(yt_link)
-    videoStream = getVideo.streams.get_highest_resolution()
-    videoStream.download(folder)
-    messagebox.showinfo("VIDEO SUCCESSFULLY DOWNLOADED")
 
+    if yt_link and folder:
+        threading.Thread(target = downloadVideo, args = (yt_link, folder)).start()
+        print("in if")
+    else:
+        messagebox.showwarning("Please enter a link and select a download path")
+        print("in else")
+
+def downloadVideo(yt_link, folder):
+    print("in download video")
+    try:
+        getVideo = YouTube(yt_link, on_progress_callback = on_progress)
+        print(getVideo.title)
+        videoStream = getVideo.streams.get_highest_resolution()
+        videoStream.download(folder)
+        messagebox.showinfo("VIDEO SUCCESSFULLY DOWNLOADED")
+    except Exception as e:
+        messagebox.showerror("Error", f"{e}")
 
 main = tk.Tk()
 main.geometry("520x280")
