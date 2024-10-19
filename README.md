@@ -7,10 +7,10 @@ _Please note that this is an unfinished repository._
 
 
 ## Table of Contents
-- [Python Syntax](#Python_Syntax)
-- [To-Do List](#To-Do_List)
-- [Simple Calculator](#Simple_Calculator)
-- [YouTube Video Downloader](#YouTube_Video_Downloader)
+- [Python Syntax](#python-syntax)
+- [To-Do List](#to-do-list)
+- [Simple Calculator](#simple-calculator)
+- [YouTube Video Downloader](#youtube-video-downloader)
 
 
 ## Python Syntax
@@ -19,7 +19,7 @@ as well as through solving coding problems on [Coddy.tech](https://coddy.tech/).
 
 _(To get the best out of my daily limited code executions, I verified my solutions through ChatGPT first before submitting them on coddytech)_
 
-## To-Do List
+## [To-Do List](https://github.com/MahinourAbdelgawad/Python-Mini-Projects/tree/main/ToDo%20List%20CLI)
 This was the first of the mini-projects, and it uses a command-line interface.  
 
   ### Features and Concepts Practiced/Learned
@@ -30,14 +30,14 @@ This was the first of the mini-projects, and it uses a command-line interface.
   5- Controlling the command line (validating user input, clearing terminal, sleep function).  
 
 
-## Simple Calculator
+## [Simple Calculator](https://github.com/MahinourAbdelgawad/Python-Mini-Projects/tree/main/Simple%20Calculator%20GUI)
 This was the second of the mini-projects, but it was my first time experimenting with GUI for Python. For this project, I used Tkinter.  
 Since it was my first time using Tkinter, I followed a tutorial by [GeeksForGeeks](https://www.geeksforgeeks.org/python-simple-gui-calculator-using-tkinter/)
 
   ### Features and Concepts Practiced/Learned  
   1- Basic Tkinter features.  
 
-## YouTube Video Downloader  
+## [YouTube Video Downloader](https://github.com/MahinourAbdelgawad/Python-Mini-Projects/tree/main/Simple%20Youtube%20Video%20Downloader%20Tkinter)  
 This was the third of the mini-projects, and the second one using Tkinter.  
 I followed a tutorial by [GeeksForGeeks](https://www.geeksforgeeks.org/create-gui-for-downloading-youtube-video-using-python/)
 
