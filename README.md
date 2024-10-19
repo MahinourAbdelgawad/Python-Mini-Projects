@@ -49,4 +49,4 @@ I followed a tutorial by [GeeksForGeeks](https://www.geeksforgeeks.org/create-gu
 
    *After hours of frustration and inability to make the program work, I discovered the issue was with the pytube library itself. After researching, I discovered an alternative library called [pytubefix](https://pypi.org/project/pytubefix/).  
 
-I enjoyed this mini-project so much and decided to put the mini-projects roadmap on hold to work on a larger, more complex YouTube Video Downloader which also works for playlists _(in progress, repo is privated as of now)
+I enjoyed this mini-project so much and decided to put the mini-projects roadmap on hold to work on a larger, more complex YouTube Video Downloader which also works for playlists _(in progress, repo is privated as of now)_
