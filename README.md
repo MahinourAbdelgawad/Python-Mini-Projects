@@ -11,6 +11,7 @@ _Please note that this is an unfinished repository._
 - [To-Do List](#to-do-list)
 - [Simple Calculator](#simple-calculator)
 - [YouTube Video Downloader](#youtube-video-downloader)
+- [Simple Robot Arm Simulator](#simple-robot-arm-simulator)
 
 
 ## Python Syntax
@@ -50,3 +51,13 @@ I followed a tutorial by [GeeksForGeeks](https://www.geeksforgeeks.org/create-gu
    *After hours of frustration and inability to make the program work, I discovered the issue was with the pytube library itself. After researching, I discovered an alternative library called [pytubefix](https://pypi.org/project/pytubefix/).  
 
 I enjoyed this mini-project so much and decided to put the mini-projects roadmap on hold to work on a larger, more complex YouTube Video Downloader which also works for playlists _(in progress, repo is privated as of now)_
+
+## [Simple Robot Arm Simulator](https://github.com/MahinourAbdelgawad/Python-Mini-Projects/tree/main/Simple%20Robot%20Arm%20Simulator)
+With this project, I explored [matplotlib](https://matplotlib.org/) to simulate the movement of a robotic arm made up of 3 segments.
+
+The program accepts user input to move any of the joints to a specified angle within the range of 0° to 180°.
+
+### Features and Concepts Practiced/Learned
+1- matplotlib library and interactive mode
+2- Trigonometric calculations using math library
+3- exception handling
